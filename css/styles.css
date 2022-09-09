@@ -1,0 +1,46 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: rgba(0, 0, 255, 0.57);
+    color: whitesmoke;
+    font-family: Tahoma;
+  }
+  #title {
+    text-align: center;
+    font-size: 1.5em;
+    margin: 10px auto;
+  }
+  #description {
+    text-align: center;
+    margin: 5px auto;
+    font-size: 1em;
+  }
+  #survey-form {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 15px auto;
+    padding: 25px;
+    width: 80%
+  }
+  label, .text {
+    margin-top: 15px;
+    display: block;
+  }
+  #name, #email, #number, #dropdown, textarea, #submit {
+    display: block;
+    width: 200px;
+    max-width: 150px;
+    min-width: 50vw;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    color: hsl(230, 10%, 55%);
+    outline: none;
+    margin-top: 10px;
+  }
+  #submit {
+    background-color: rgb(61, 143, 61);
+    color: white;
+  }
